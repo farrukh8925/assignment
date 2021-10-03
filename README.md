@@ -1,3 +1,8 @@
+# Getting Started with the App
+
+Create an .env file and variable REACT_APP_CLIENT_ID
+Without which the API requests will not go through
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -17,7 +17,8 @@ const UserPosts: React.FC = () => {
       return posts[selectedAuthor]
         .filter((post) => {
           if (postFilter) {
-            return post.message.includes(postFilter);
+            return post.message.toLocaleLowerCase()
+              .includes(postFilter.toLocaleLowerCase());
           }
           return post;
         })
