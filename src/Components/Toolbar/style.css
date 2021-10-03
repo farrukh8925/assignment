@@ -1,0 +1,75 @@
+.toolbar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  height: 58px;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #5c81c5;
+  padding: 8px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.toolbar--left {
+  flex: 1;
+}
+
+.toolbar--right {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+  padding-left: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sort-button {
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+  height: 30px;
+  padding: 0px 14px;
+  box-sizing: border-box;
+}
+
+.sort-button.selected {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sort-button img {
+  width: 14px;
+}
+
+.input-toolbar {
+  height: 32px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #428093;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: none;
+  padding-left: 8px;
+  color: white;
+  max-width: 500px;
+}
+
+.input-toolbar:focus {
+  outline: none;
+  border: 1px solid white;
+}
+
+.input-toolbar::placeholder {
+  color: white;
+  font-style: italic;
+}
+
+.logout-button {
+  margin-left: 12px;
+  height: 32px;
+  border: 1px solid #428093;
+  background-color: #46649b;
+  color: white;
+  cursor: pointer;
+}

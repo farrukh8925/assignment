@@ -1,0 +1,32 @@
+.login-view {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+  background-color: #46649b;
+}
+
+.login-view__container {
+  align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  justify-content: center;
+  min-width: 500px;
+  padding: 32px;
+}
+
+.login-view__container--form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-view__container--form--label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}

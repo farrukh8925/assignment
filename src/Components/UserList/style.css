@@ -1,0 +1,26 @@
+.users-list {
+  box-sizing: border-box;
+  background-color: #eeeeee;
+  border-right: 1px solid #eeeeee;
+  position: relative;
+}
+
+.users-list--card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: rgb(253, 253, 253);
+  border-bottom: 1px solid #eeeeee;
+  cursor: pointer;
+}
+
+.users-list--card.selected {
+  background-color: #f1f1f1;
+}
+
+.users-list--card:hover {
+  background-color: #f1f1f1;
+}

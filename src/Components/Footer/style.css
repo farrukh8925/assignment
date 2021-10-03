@@ -1,0 +1,33 @@
+.footer {
+  align-items: center;
+  background-color: white;
+  border-top: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.footer-button {
+  border: 0px;
+  margin-right: 8px;
+  padding: 4px 12px;
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.footer-button:hover {
+  background-color: #5c81c5;
+  color: white;
+}
+
+.footer-button.selected {
+  background-color: #46649b;
+  color: white;
+}
+
+.footer-button:last-child {
+  margin-right: 0px;
+}
